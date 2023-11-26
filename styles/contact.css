@@ -1,0 +1,120 @@
+/* DEVELOPER: Karolina Kowal, IS117-003, Fall 2023 */
+
+/* styles for the Navbar */
+.navbar-nav {
+    margin-left: 62%;
+}
+
+.nav-link {
+    color: #6c757d;
+}
+/*#static-item {
+    color: lightgrey;
+    margin-left: 90px;
+}*/
+/*DBB1BC*/
+/*D3D5D4*/
+.nav-item {
+    padding: 0 1em;
+}
+
+#static-item {
+    color: darkslategrey;
+    position: absolute;
+    left: 1%;
+    top: 18px;
+    font-family: "Lucida Calligraphy", sans-serif;
+}
+/* styles for Brand */
+.navbar-brand {
+    background-color: #03045e;
+}
+.navbar-brand img {
+    height: 80px;
+    width: 80px;
+}
+span {
+    margin-left: 2%;
+    color: lightgrey;
+}
+
+/* styles for the Heading */
+h2 {
+    color: blue;
+    position: relative;
+    top: 0.3em;
+    left: 22em;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 200px;
+    background-color: white;
+}
+
+/* styles for the Body */
+body {
+    background-color: #edf2fb;
+}
+
+/* styles for the contact form */
+.container .row .form-group {
+    width: 50%;
+    position: relative;
+    left: 26em;
+}
+
+.form-control {
+    background-color: #edf2fb;
+}
+
+/* styles for the submit button */
+button {
+    position: relative;
+    left: 26em;
+}
+
+/* styles for the bottom contact information */
+.align-items-center .col {
+    position: relative;
+    top: 1em;
+    left: 7em;
+    font-family: Georgia, sans-serif;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 707px) {
+    #static-item {
+        display: none;
+    }
+    h2 {
+        position: relative;
+        left: 5em;
+    }
+.container .row .form-group {
+    position: relative;
+    left: 2em;
+    width: 75%;
+}
+button {
+    position: relative;
+    left: 2em;
+}
+.align-items-center {
+    position: relative;
+    right: 7em;
+    top: 0;
+    }
+}
+
+/* styles for the Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}

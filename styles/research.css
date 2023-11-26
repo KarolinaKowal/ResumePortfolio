@@ -1,0 +1,83 @@
+/* DEVELOPER: Karolina Kowal, IS117-003, Fall 2023 */
+
+/* styles for the Navbar */
+.navbar-nav {
+    margin-left: 62%;
+}
+
+.nav-link {
+    color: #6c757d;
+}
+/*#static-item {
+    color: lightgrey;
+    margin-left: 90px;
+}*/
+/*DBB1BC*/
+/*D3D5D4*/
+.nav-item {
+    padding: 0 1em;
+}
+
+#static-item {
+    color: darkslategrey;
+    position: absolute;
+    left: 1%;
+    top: 18px;
+    font-family: "Lucida Calligraphy", sans-serif;
+}
+/* styles for Brand */
+.navbar-brand {
+    background-color: #03045e;
+}
+.navbar-brand img {
+    height: 80px;
+    width: 80px;
+}
+span {
+    margin-left: 2%;
+    color: lightgrey;
+}
+
+/* styles for the Heading */
+h2 {
+    color: blue;
+    position: relative;
+    top: 0.3em;
+    left: 20em;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 300px;
+    background-color: white;
+}
+
+/* styles for the Body */
+body {
+    background-color: #edf2fb;
+}
+
+/*.navbar-brand input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.navbar-brand input {
+    border: 1px solid #ccc;
+}*/
+
+/* styles for the Bootstrap Cards */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
