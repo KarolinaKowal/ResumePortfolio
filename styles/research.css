@@ -8,12 +8,7 @@
 .nav-link {
     color: #6c757d;
 }
-/*#static-item {
-    color: lightgrey;
-    margin-left: 90px;
-}*/
-/*DBB1BC*/
-/*D3D5D4*/
+
 .nav-item {
     padding: 0 1em;
 }
@@ -25,6 +20,11 @@
     top: 18px;
     font-family: "Lucida Calligraphy", sans-serif;
 }
+
+.nav-item:focus, .nav-item:hover {
+    background-color: deeppink;
+}
+
 /* styles for Brand */
 .navbar-brand {
     background-color: #03045e;
@@ -38,7 +38,7 @@ span {
     color: lightgrey;
 }
 
-/* styles for the Heading */
+/* styles for the Headings */
 h2 {
     color: blue;
     position: relative;
@@ -50,25 +50,85 @@ h2 {
     background-color: white;
 }
 
+.terrestrial-physics-research h3 {
+    position: relative;
+    top: 0.5em;
+    left: 0.5em;
+    text-align: center;
+}
+
+.biomathematical-research h3 {
+    position: relative;
+    top: 0.5em;
+    left: 0.5em;
+    text-align: center;
+}
+
+
+/* styles for the terrestrial-physics-research section */
+.terrestrial-physics-research p {
+    text-align: center;
+    width: 50%;
+    position: relative;
+    top: 0.5em;
+    left: 25em;
+}
+
+/* styles for the biomathematical-research section */
+
+.biomathematical-research p {
+    text-align: center;
+    width: 50%;
+    position: relative;
+    top: 0.5em;
+    left: 25em;
+}
+
+/* styles for the images */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /* styles for the Body */
 body {
     background-color: #edf2fb;
 }
 
-/*.navbar-brand input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
+/* Media Queries */
+@media only screen and (max-width: 707px) {
+    #static-item {
+        display: none;
+    }
+
+    h2 {
+        position: relative;
+        left: 4em;
+    }
+
+    .terrestrial-physics-research p {
+        width: 75%;
+        position: relative;
+        left: 3.5em;
+    }
+
+    .terrestrial-physics-research img {
+        width: 100%;
+    }
+
+    .biomathematical-research p {
+        width: 75%;
+        position: relative;
+        left: 3.5em;
+    }
+
+    .biomathematical-research img {
+        width: 100%;
+    }
+
 }
-
-.navbar-brand input {
-    border: 1px solid #ccc;
-}*/
-
-/* styles for the Bootstrap Cards */
 
 .footer {
     position: fixed;

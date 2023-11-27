@@ -25,6 +25,12 @@
     top: 18px;
     font-family: "Lucida Calligraphy", sans-serif;
 }
+
+.nav-item:focus, .nav-item:hover {
+    background-color: deeppink;
+}
+
+
 /* styles for Brand */
 .navbar-brand {
     background-color: #03045e;
@@ -56,13 +62,99 @@ body {
 }
 
 /* styles for the database-design section class */
-.database-design {
-    width: 50%;
+
+.database-design h3 {
     position: relative;
     top: 0.5em;
+    left: 19.5em;
+}
+
+.database-design p {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    top: 1.5em;
     left: 25%;
 }
 
+.database-design img {
+    position: relative;
+    top: 1em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* styles for the data-science section class */
+.data-science h3 {
+    position: relative;
+    top: 0.5em;
+    left: 19.5em;
+}
+
+.data-science p {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    top: 1.5em;
+    left: 25%;
+}
+
+.data-science img {
+    position: relative;
+    top: 1em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* styles for the study-spots section class */
+
+.study-spots h3 {
+    position: relative;
+    top: 0.5em;
+    left: 15em;
+}
+
+.study-spots h4 {
+    position: relative;
+    top: 0.4em;
+    left: 27.5em;
+}
+
+.study-spots p {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    top: 1em;
+    left: 25%;
+}
+
+.study-spots img {
+    position: relative;
+    top: 1em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+form {
+    position: relative;
+    top: 0.5em;
+    left: 43em;
+}
 
 .footer {
     position: fixed;
@@ -74,4 +166,66 @@ body {
     text-align: center;
     padding: 10px;
     font-size: 0.5rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 707px) {
+    #static-item {
+        display: none;
+    }
+
+    h2 {
+        position: relative;
+        left: 3.5em;
+    }
+    .database-design h3 {
+        position: relative;
+        left: 1.3em;
+    }
+    .data-science h3 {
+        position: relative;
+        left: 3.5em;
+    }
+    .study-spots h3 {
+        position: relative;
+        left: 0.1em;
+        text-align: center;
+    }
+    .study-spots h4 {
+        position: relative;
+        left: 7.5em;
+    }
+    .database-design img {
+        width: 100%;
+    }
+    .database-design p {
+        width: 75%;
+        position: relative;
+        left: 3.5em;
+    }
+    .data-science img {
+        width: 100%;
+    }
+    .data-science p {
+        width: 75%;
+        position: relative;
+        left: 3.5em;
+    }
+    .study-spots img {
+        width: 100%;
+    }
+    .study-spots p {
+        width: 75%;
+        position: relative;
+        left: 3.5em;
+    }
+    .study-spots h4 {
+        width: 75%;
+        position: relative;
+        left: 7em;
+    }
+    .study-spots form {
+        position: relative;
+        left: 11.5em;
+    }
 }

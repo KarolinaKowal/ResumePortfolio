@@ -26,6 +26,10 @@
     font-family: "Lucida Calligraphy", sans-serif;
 }
 
+.nav-item:focus, .nav-item:hover {
+    background-color: deeppink;
+}
+
 /* styles for Brand */
 .navbar-brand {
     background-color: #03045e;
@@ -142,40 +146,6 @@ margin-top: 3em;
     text-align: center;
 }
 
-
-
-/* styles for the aside inside the valley-pictures class */
-/*.valley-pictures .picture-1 {
-    border-radius: 25px;
-    border: 2px solid black;
-    float: right;
-    width: 250em;
-    height: 400em;
-    background-color: white;
-    position: relative;
-    right: 5em;
-}
-
-.valley-pictures .picture-2  {
-    border-radius: 25px;
-    border: 2px solid black;
-    float: left;
-    width: 850px;
-    height: 400px;
-    background-color: #ffe5ec;
-    position: relative;
-    right: 2em;
-}
-
-.valley-pictures .picture-3 {
-    border-radius: 25px;
-    border: 2px solid black;
-    float: right;
-    width: 850px;
-    height: 350px;
-    background-color: white;
-}
-*/
 .footer {
     position: fixed;
     left: 0;
